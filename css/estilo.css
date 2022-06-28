@@ -1,0 +1,46 @@
+body {
+    background-color: #fffc00;
+}
+
+h1 {
+    color: #f00;
+    font-family: sans-serif;
+    width: 100%; border: 1px solid #000;
+ }
+
+ .envoltura {
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+    
+ }
+
+ .articulo {
+     width: 45%;
+     height: 200px;
+     border: 1px solid #000000;
+     margin: 2%;
+     
+ }
+
+ @media screen and (max-width: 599px) {
+     .articulo{
+        width: 95%;
+        height: 200px;
+        border: 1px solid #000000;
+        margin: 2%;
+    background-color: rgb(247, 151, 231);
+     }
+     
+ }
+
+ @media screen and (min-width: 1000px) {
+    .articulo{
+       width: 23%;
+       height: 200px;
+       border: 1px solid #000000;
+       margin: 0.5%;
+       background-color: darkslategray;
+    }
+}
+
